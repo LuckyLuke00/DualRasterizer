@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterizers">
+      <UniqueIdentifier>{4975de77-1cfc-4224-8933-ca276e4c10cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects">
+      <UniqueIdentifier>{271e4eed-89d8-49b3-9da8-5c769266429d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelpers.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ColorRGB.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="HardwareRasterizer.h">
+      <Filter>Rasterizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectFire.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectPhong.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h" />
+    <ClInclude Include="Utils.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SoftwareRasterizer.h">
+      <Filter>Rasterizers</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="HardwareRasterizer.cpp">
+      <Filter>Rasterizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectFire.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectPhong.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="SoftwareRasterizer.cpp">
+      <Filter>Rasterizers</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
